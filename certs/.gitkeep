@@ -1,0 +1,3 @@
+# Berkas ini hanya penanda agar folder certs/ tetap ada setelah
+# repository di-clone. Sertifikat CA dari Aiven (ca.pem) diletakkan
+# di folder ini dan TIDAK ikut ter-commit.

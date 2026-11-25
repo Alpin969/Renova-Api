@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment (berisi kredensial, JANGAN pernah di-commit)
+.env
+
+# Sertifikat SSL / CA Certificate dari Aiven (rahasia).
+# Semua isi folder diabaikan KECUALI berkas penanda .gitkeep, supaya
+# struktur folder certs/ tetap ada saat repository di-clone.
+certs/*
+!certs/.gitkeep
+
+# File upload pengguna
+uploads/
+
+# Hasil pengujian
+coverage/
+
+# Log
+logs/
+*.log
+npm-debug.log*
+
+# Berkas OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
